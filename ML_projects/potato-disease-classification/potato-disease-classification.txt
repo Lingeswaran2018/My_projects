@@ -1,1 +1,33 @@
 
+Potato Disease Classification Project
+
+Objective: The primary goal of this project is to develop a Convolutional Neural Network (CNN) model capable of classifying potato diseases from images. This model aims to assist in early disease detection, enabling timely intervention and crop protection.
+
+Methodology:
+
+Data Collection: The project utilizes a dataset of potato leaf images, each labeled with the corresponding disease type. This dataset is crucial for training and validating the CNN model.
+Model Development: A CNN model is designed and trained using TensorFlow, a popular deep learning framework. The model architecture includes convolutional layers for feature extraction, pooling layers for dimensionality reduction, and fully connected layers for classification.
+Training and Validation: The model is trained on a portion of the dataset and validated on a separate set to ensure its accuracy and generalizability.
+Model Evaluation: The performance of the model is evaluated using metrics such as accuracy, precision, recall, and F1 score to assess its effectiveness in classifying potato diseases.
+Technologies Used:
+
+Programming Language: Python
+Deep Learning Framework: TensorFlow
+Additional Libraries: NumPy, Matplotlib, and Keras (a high-level neural networks API, written in Python and capable of running on top of TensorFlow)
+Deployment:
+
+The trained model is saved as a .h5 file, which can be loaded and used for prediction tasks.
+The project also includes a REST API for integrating the model into web applications or mobile apps, facilitating easy access to the disease classification functionality.
+Future Work:
+
+Exploring different model architectures and hyperparameters to improve the model's performance.
+Deploying the model on cloud platforms for scalability and accessibility.
+Integrating the model into a mobile application for real-time disease detection in the field.
+Contributors:
+
+[Lingeswaran]
+
+
+Acknowledgements:
+
+[Thank you for codebasics utube channel]
